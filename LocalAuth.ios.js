@@ -18,7 +18,7 @@ let LocalAuth = {
           return reject(createError(error.message))
         }
 
-        resolve()
+        resolve(true);
       })
     })
   },
